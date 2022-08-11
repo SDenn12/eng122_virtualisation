@@ -59,7 +59,11 @@ We will now be automating the update and upgrade of the OS.
 
 ![image](https://user-images.githubusercontent.com/110126036/184167574-770175e7-5fd4-4076-9630-224a16d9a877.png)
 
-### Useful Linux commands
+## Useful Linux commands
+
+### File Handling
+
+https://kinsta.com/blog/linux-commands/
 
 - How can we find out the name of OS `uname` or `uname -a` 
 - How to create a file in linux, `touch filename` or `nano filename` 
@@ -68,22 +72,34 @@ We will now be automating the update and upgrade of the OS.
 - How to navigate to the folder `cd foldername`
 - How to come out of folder (1 step back) `cd ..`
 - How to check our current location `pwd`
-- `whoami`
+- `whoami` returns the username
 - how to copy file `cp filename_with_absolute_path destination_with_absolute_path` 
 - how to remove file/folder `rm -rf filename/foldername`
 - how to cut paste the file/move the test file `mv filename_with_absolute path destination_with_absolute_path`
+- rename with `mv prev_name new_name`
 - how to present processes `top` exit with `ctrl c`. Can also use `ps aux`
-- can remove/delete/kill processes in linux 
-- how to use `|` pipe
+- `|` (also known as pipe) allows the output from one command to be carried to the next. e.g `Command-1 | Command-2 | …| Command-N`
 - can act as admin/root user with `sudo su` or `sudo i`
 - how to check file permissions `ll`
 - how to change file permission `chmod permission filename`
 - to make executable `chmod +x filename`, `all`, `r`, `w`, `rw` also numbers `400` or `600` for all `700`
-- linux commands to communicate with world wide web
 - update our ubuntu OS `sudo apt-get update`
-- upgrade our ubuntu os `sudo apt-get upgrade` or `sudo apt-get upgrade -y`
-- how to create automate tasks with provisioning scripts
-- automate update and upgrade
-- make .sh folder and make it executable. call the filename with ./filename to run it
+- upgrade our ubuntu os `sudo apt-get upgrade` or `sudo apt-get upgrade -y` (-y automates prompted response)
+- ./filename to run it if is exe
 - contents of a file `cat filename`
   
+  
+### How to kill a process
+  
+`sudo kill -9 PID`
+
+Or you can do it in the top function
+  
+![image](https://user-images.githubusercontent.com/110126036/184171679-c47098ae-4026-4f5d-9ea4-d238f48bc97e.png)
+  
+You can also kill all processes of a given program with `killall -I process_name` (case insensitive, use -i for case sensitivity)
+  
+### World Wide Web commands
+
+- Checks network status of a specific domain `ping domain` or `ping ip address`
+- Retrieves the content `wget domain_name`
