@@ -1,4 +1,14 @@
-# Vagrant Setup
+# Virtualisation
+### What is Virtualisation and what are the benefits?
+Virtualisation recreates the hardware of a different operating system through the use of software.
+
+Virtualisation increases security, saves on investments on hardware and also the running costs of the hardware. It also makes it simpler to manage.
+### What is Vagrant?
+Open source software product for building and maintaining virtual machines
+
+### What is VirtualBox?
+It allows users to extend their existing computer to run multiple operating systems including Microsoft Windows, Mac OS X, Linux, and Oracle Solaris, at the same time. 
+## Vagrant Setup
 ### Prerequisites 
 1. Install Ruby
 2. Install Vagrant
