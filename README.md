@@ -49,4 +49,24 @@ You can use `exit` to leave the VM.
 - automate update and upgrade
 - make .sh folder and make it executable. call the filename with `./filename` to run it
 - contents of a file `cat filename`
+<<<<<<< HEAD
   
+=======
+  
+  
+### How to kill a process
+  
+`sudo kill -9 PID`
+
+Or you can do it in the top function
+  
+![image](https://user-images.githubusercontent.com/110126036/184171679-c47098ae-4026-4f5d-9ea4-d238f48bc97e.png)
+  
+You can also kill all processes of a given program with `killall -I process_name` (case insensitive, use -i for case sensitivity)
+  
+### World Wide Web commands
+
+- Checks network status of a specific domain `ping domain` or `ping ip address`
+- Retrieves the content `wget domain_name`
+d
+>>>>>>> fc856a40a5c852645f73fd8a906ee030f54a60cc
