@@ -113,3 +113,4 @@ You can also kill all processes of a given program with `killall -I process_name
 
 - Checks network status of a specific domain `ping domain` or `ping ip address`
 - Retrieves the content `wget domain_name`
+d
