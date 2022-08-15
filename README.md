@@ -150,3 +150,5 @@ Use to update
 `sudo apt-get update && sudo apt-get install yarn`
 
 `sudo npm install pm2 -g` the -g means to install globally, npm is a package manager for js (similar to pip for python)
+
+Inside app folder where app.js use: `npm install` followed by `npm start`
