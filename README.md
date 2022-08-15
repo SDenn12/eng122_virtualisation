@@ -122,8 +122,8 @@ You can also kill all processes of a given program with `killall -I process_name
 
 
 - Install nginx `sudo apt-get install nginx`
-- How to check if it is running  `sudo systemctl status nginx`
-- restart or start `sudo systemctl restart nginx `
+- How to check if it is running  `sudo systemctl status nginx` 
+- restart or start `sudo systemctl restart nginx ` `sudo systemctl start nginx ` `sudo systemctl stop nginx `
 - enable the process `sudo systemctl enable nginx`
 
 ## Deployment
@@ -134,3 +134,19 @@ NOTE: Nodejs operates on port 3000
 - To install the package manager for ruby use `gem install bundler` and then `bundle` to install all dependencies
 - Sync files to VM from LH in the Vagrant file using `config.vm.synced_folder ".", "/home/vagrant/app"`
 - Restart VM after editing (remember to save files too) using `vagrant reload`
+
+
+- rake spec to test the dependencies
+
+How to install the correct version of nodejs 
+```
+Using Ubuntu
+sudo apt-get purge nodejs npm
+
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+Use to update
+`sudo apt-get update && sudo apt-get install yarn`
+
+`sudo npm install pm2 -g` the -g means to install globally, npm is a package manager for js (similar to pip for python)
