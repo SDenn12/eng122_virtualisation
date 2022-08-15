@@ -1,4 +1,6 @@
 # Virtualisation
+
+![](DOCUMENTATION/Capture.PNG)
 ### What is Virtualisation and what are the benefits?
 Virtualisation recreates the hardware of a different operating system through the use of software.
 
