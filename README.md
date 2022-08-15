@@ -128,6 +128,9 @@ You can also kill all processes of a given program with `killall -I process_name
 
 ## Deployment
 
+
+NOTE: Nodejs operates on port 3000
+
 - To install the package manager for ruby use `gem install bundler` and then `bundle` to install all dependencies
 - Sync files to VM from LH in the Vagrant file using `config.vm.synced_folder ".", "/home/vagrant/app"`
 - Restart VM after editing (remember to save files too) using `vagrant reload`
